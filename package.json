@@ -4,8 +4,14 @@
   "description": "Evaluate News Articles using Natural Language Processing Software",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server/index.js"
   },
   "author": "Moses Kamara",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5"
+  }
 }
